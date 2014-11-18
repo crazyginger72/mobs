@@ -526,7 +526,7 @@ function mobs:register_spawn(name, nodes, max_light, min_light, chance, active_o
 	})
 end
 
---[[function mobs:register_arrow(name, def)
+function mobs:register_arrow(name, def)
 	minetest.register_entity(name, {
 		physical = false,
 		visual = def.visual,
@@ -553,4 +553,4 @@ end
 			end
 		end
 	})
-end]]--
+end
